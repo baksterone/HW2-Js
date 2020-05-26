@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-image: url(../img/img.png);
+  background-size: cover;
+}
+
+.app {
+  text-align: center;
+  width: 75%;
+}
+
+.app h1 {
+  font-weight: 700;
+  padding-top: 30px;
+}
+
+#todo-application {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#todo-application input {
+  width: 50%;
+  border: 1px solid white;
+  font-size: 0.75em;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+#list li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+  font-style: italic;
+  margin-bottom: 2%;
+}
+
+#list .delete-button {
+  color: red;
+  text-transform: uppercase;
+}
+
+button {
+  padding: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #fff;
+}
+
+.about {
+  position: absolute;
+  right: 15%;
+  top: 5%;
+}
+
+.modal-frame {
+  display: none;
+  position: relative;
+  width: 50%;
+  height: 50%;
+  background-color: #fff;
+}
+
+.modal-frame #close-modal {
+  padding: 2px;
+  position: absolute;
+  right: 0;
+  background-color: red;
+}
+
+.modal-frame .modal input {
+  width: 80%;
+  padding: 5px;
+  font-style: italic;
+}
+
+.close {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo</title>
+    <link rel="stylesheet" href="./scss/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="app">
+            <h1>ToDo-application</h1>
+
+            <section id="todo-application">
+                <input type="text" placeholder="Введите задачу">
+                <ul id="list"></ul>
+                <button id="save">Сохранить все</button>
+                <button id="clear">Очистить все</button>
+            </section>
+        </div>
+        <button class="about" id="about">Информация о себе</button>
+        <section id="modal-section">
+            <div class="modal-frame" id="modal-frame">
+                <button id="close-modal">X</button>
+                <div class="modal">
+                    <input type="text" placeholder="Фамилия" value="Авдейчик">
+                    <input type="text" placeholder="Имя" value="Глеб">
+                    <input type="text" placeholder="Отчество" value="Игоревич">
+                </div>
+            </div>
+        </section>
+</div>
+    <script src="./script/script.js"></script>
+</body>
+</html>
