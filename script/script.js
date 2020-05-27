@@ -82,7 +82,7 @@ document.getElementById("close-modal").onclick = function(){
 };
 
 function closeModal(){
-    document.getElementById("modal-frame").classList.toggle("close");
+    document.getElementById("modal-frame").classList.toggle("show");
 };
 
 
